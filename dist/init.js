@@ -19,4 +19,4 @@ var handleListen = function handleListen() {
   console.log("blockcell coin server is listening on ".concat(PORT));
 };
 
-_app.default.listen(3000, handleListen);
+_app.default.listen(PORT, handleListen);
