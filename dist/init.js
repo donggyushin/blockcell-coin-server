@@ -8,12 +8,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 _dotenv.default.config();
 
-var PORT = 3000;
-var env = process.env.NODE_ENV || "dev";
-
-if (env !== "dev") {
-  PORT = process.env.PORT;
-}
+var PORT = 8001;
 
 var handleListen = function handleListen() {
   console.log("blockcell coin server is listening on ".concat(PORT));
